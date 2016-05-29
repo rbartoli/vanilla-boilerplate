@@ -17,7 +17,7 @@ A boilerplate to start a client-side project using ES2015.
 
 ## Getting started
 ```bash
-$ git clone https://github.com/rbartoli/prototype-boilerplate.git
+$ git clone https://github.com/rbartoli/es2015-boilerplate.git
 $ npm i
 $ npm start
 ```
