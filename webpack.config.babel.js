@@ -15,7 +15,10 @@ let config = {
   devtool: 'eval-source-map',
   devServer: {
     contentBase: 'public',
-    historyApiFallback: true
+    historyApiFallback: true,
+    host: '0.0.0.0',
+    hot: true,
+    inline: true
   },
   module: {
     preLoaders: [
