@@ -1,6 +1,5 @@
 import path from 'path'
 import webpack from 'webpack'
-import WebpackNotifierPlugin from 'webpack-notifier'
 
 let config = {
   context: path.join(__dirname, 'src'),
@@ -52,7 +51,6 @@ let config = {
     ]
   },
   plugins: [
-    new WebpackNotifierPlugin()
   ]
 }
 
