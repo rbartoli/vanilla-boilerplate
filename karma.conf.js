@@ -61,6 +61,11 @@ module.exports = function(config) {
       ]
     },
 
+    isparta: {
+      embedSource: true,
+      noAutoWrap: true
+    },
+
     mochaReporter: {
       output: 'full',
       showDiff: 'inline'
@@ -73,12 +78,7 @@ module.exports = function(config) {
           {
             test: /\.js$/,
             exclude: /(test|node_modules)\//,
-            loader: 'isparta-instrumenter-loader',
-            query: {
-              babel: {
-                presets: ['es2015']
-              }
-            }
+            loader: 'isparta-instrumenter-loader'
           }
         ],
         loaders: [

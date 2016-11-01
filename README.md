@@ -1,9 +1,9 @@
-# ES2015 boilerplate
-A boilerplate to start a client-side project using ES2015.
+# Vanilla boilerplate (ES2015)
+A boilerplate to start a client-side project using Vanilla JavaScript (ES2015).
 
 ## Features
 - [ES2015](https://babeljs.io/docs/learn-es2015)
-- [SASS]() support using [node-sass](https://github.com/sass/node-sass)
+- [SASS](http://sass-lang.com/) support using [node-sass](https://github.com/sass/node-sass)
 
 ## Tools
 - [Webpack](https://github.com/webpack/webpack)
@@ -17,7 +17,7 @@ A boilerplate to start a client-side project using ES2015.
 
 ## Getting started
 ```bash
-$ git clone https://github.com/rbartoli/es2015-boilerplate.git
+$ git clone https://github.com/rbartoli/vanilla-boilerplate.git
 $ npm i
 $ npm start
 ```
